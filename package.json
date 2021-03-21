@@ -1,0 +1,9 @@
+{
+  "name": "tdd-with-typescript-and-jest",
+  "version": "1.0.0",
+  "description": "tdd-with-typescript-and-jest",
+  "main": "index.js",
+  "repository": "https://github.com/ryosuketter/tdd-with-typescript-and-jest",
+  "author": "ryosuke shimizu",
+  "license": "MIT"
+}
