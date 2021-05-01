@@ -7,7 +7,7 @@
       "es6" // コンパイルする際に使用する組み込みライブラリを指定
     ],
     "allowJs": false, // falseだと、.jsと.jsxもコンパイル対象に含まれない
-    "sourceMap": true, // こちらは型定義ではなく、jsのmapファイル
+    "sourceMap": true, // こちらは型定義ではなく、jsのmapファイル（）
     "incremental": true, // このオプションをtrueにすると、以前コンパイルを実行したコードと現在のコードとの差分を検出して、必要なファイルだけをコンパイルするようになる
     "strictNullChecks": true, // Nullableな値に対してオプションの呼び出しを行う記述をエラーにする
     "strictFunctionTypes": true, // 関数代入時の引数の型チェックにおいて、TypeScriptのデフォルトはBivariantlyな挙動だが、このオプションをtrueにするとContravariantlyに型チェックが走るようになる
