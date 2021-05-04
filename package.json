@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/ryosuketter/tdd-with-typescript-and-jest",
   "author": "ryosuke shimizu",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
