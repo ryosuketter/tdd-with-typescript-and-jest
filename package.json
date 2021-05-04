@@ -6,6 +6,13 @@
   "repository": "https://github.com/ryosuketter/tdd-with-typescript-and-jest",
   "author": "ryosuke shimizu",
   "license": "MIT",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^15.0.1",
