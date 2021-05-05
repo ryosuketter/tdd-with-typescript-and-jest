@@ -16,5 +16,6 @@
     "noUnusedLocals": true, // 宣言されたが使用されていない変数が存在する場合にコンパイルエラーにする。デフォルト値はfalse。とりあえずtrueにしておけ系
     "noUnusedParameters": true // 関数の作成時、定義しているのに中身のコードで使用されない場合にコンパイルエラーにする
   },
+  "include": ["src"], // コンパイルする対象ファイル
   "exclude": ["node_modules", "dist"]
 }
